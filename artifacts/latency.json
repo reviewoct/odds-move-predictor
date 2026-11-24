@@ -1,0 +1,20 @@
+{
+  "threads": 1,
+  "window": 32,
+  "books": 5,
+  "batch_1": {
+    "p50_ms": 0.543,
+    "p99_ms": 2.024,
+    "market_snapshots_per_s": 1524
+  },
+  "batch_64": {
+    "p50_ms": 7.503,
+    "p99_ms": 19.124,
+    "market_snapshots_per_s": 8031
+  },
+  "batch_512": {
+    "p50_ms": 61.213,
+    "p99_ms": 75.042,
+    "market_snapshots_per_s": 8273
+  }
+}
